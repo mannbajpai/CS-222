@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <main>
+        <h2>Welcome to my answer</h2>
+        <p>
+            Hello Everyone This is my webpage. It is before button is clicked
+        </p>
+
+    </main>
+    <button onclick="changeThisPageFunc();">Click Me</button>
+    
+    <script>
+        changeThisPageFunc = function(){
+            document.body.style.backgroundColor="#734c79";
+            main=document.querySelector('main');
+            main.innerHTML="<h3>This is my webpage after the button is clicked using query</h3>"
+            main.style.color ='#FF0000';
+        }
+    </script>
+</body>
+</html>

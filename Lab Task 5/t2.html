@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(242, 235, 211);
+        }
+        #count{
+            color: rgb(47, 71, 223);
+            font-size: 20pt;
+        }
+        .btn{
+            font-size: 20px;
+            width: 60px;
+            background-color: lightblue;
+            border-color: transparent;
+            color: lightseagreen;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <p id="count">0</p>
+    <button class="btn" onclick="increment();">+</button>
+    <button class="btn" onclick="decrement();">-</button>
+    <script>
+        n = document.getElementById("count");
+        function increment(){
+            var num = Number(n.innerHTML);
+            n.innerHTML = num + 1;
+            font = 20 + num;
+            n.style.fontSize = font +"pt";
+        }
+        function decrement(){
+            var num = Number(n.innerHTML)
+            n.innerHTML =  num - 1;
+            font = 20 - num;
+            n.style.fontSize = font +"pt";
+        }
+    </script>
+</body>
+</html>
