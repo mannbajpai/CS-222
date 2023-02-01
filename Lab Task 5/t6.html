@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="makePage();">Click Here</button>
+    <script>
+        function makePage(){
+            const heading = document.createElement("h1");
+            heading.innerHTML = "I am an H1";
+            const para = document.createElement("p");
+            para.innerHTML = "This is a paragraph followed by a list";
+            const list = document.createElement("ol");
+            list.type = "I";
+            var item1 = document.createElement("li");
+            var item2 = document.createElement("li");
+            item1.innerHTML = "This is first"
+            list.appendChild(item1);
+            item2.innerHTML = "This is second";
+            list.appendChild(item2);
+            const body = document.body;
+            body.appendChild(heading);
+            body.appendChild(para);
+            body.appendChild(list)
+        }
+    </script>
+</body>
+</html>
