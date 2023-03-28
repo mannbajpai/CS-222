@@ -1,8 +1,9 @@
 # Welcome
 
 ## Mann Bajpai
-## RGIPT, Jais
+## Rajiv Gandhi Institute of Petroleum Technology, Jais
 ## IDD CSE (Semester IV)
 ## CS-222 Web Technology
+## Instructor : Dr. Gargi Srivastava
 
-### [See The Assignments](https://mannbajpai.github.io/CS-222/)
+### [Click to See The Assignments](https://mannbajpai.github.io/CS-222/)
